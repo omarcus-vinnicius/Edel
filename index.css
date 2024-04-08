@@ -173,6 +173,44 @@ h3{
 }
 
 
+#card_nosso_objetivo_div{
+    display: flex;
+    width: 100%;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    padding: 30px;
+}
+
+#card_nosso_objetivo_div .card_nosso_objetivo{
+    display: flex;
+    width: 30%;
+    height: 80%;
+    background-color: #091D3D;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 30px;
+    border-radius: 10%;
+    
+}
+
+#card_nosso_objetivo_div .card_nosso_objetivo img{
+  width: auto;
+  height: 30%;
+  margin-bottom: 5px
+    
+}
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+#card_nosso_objetivo_div .card_nosso_objetivo p{
+    font-size: 2em;
+    color: #fff;
+    font-family: "Work Sans", sans-serif;
+}
+
+
 #card_oq_fazemos{
     position: relative;
     display: flex;
@@ -418,13 +456,21 @@ footer .curv_footer{
 
 }
 
-@media(max-width: 1024px) {
+@media(max-width: 1114px) {
+
+
+     #section_header .edel-header #logo_title{
+        display: flex;
+        width: 40%;
+        height: auto;
+       
+    }
 
     #nav_bar nav ul li{
         display: flex;
-        width: 220px;
+        width: 210px;
         height: 60px;
-        justify-content: space-between;
+        justify-content: space-evenly;
         align-items: center;
     }
     
@@ -437,11 +483,12 @@ footer .curv_footer{
         text-decoration: none;
         color: #091D3D;
     
-        font: 1em "Tenor Sans", sans-serif;
+        font: 1.2em "Tenor Sans", sans-serif;
     }
-
+ 
     #nosso_objetivo_section img{
-        width: 90%;
+        width: 100%;
+        
     }
 
     footer .curv_footer{
@@ -493,13 +540,12 @@ footer .curv_footer{
         height: inherit;
         justify-content: space-evenly;
         align-items: center;
-        flex-direction: column;
     }
 
     #card_oq_fazemos .card{
         display: flex;
-        width: 28%;
-        height: 100%;
+        width: 30%;
+        height: 60%;
         background-color: #091D3D;
         border-radius: 50px;
         margin-bottom: 60px;
@@ -511,60 +557,16 @@ footer .curv_footer{
         border: none;
     }
 
-    
-}
-
-
-@media(max-width: 720px) {
-    #section_header .edel-header img{
-        width: 36%;
-        height: 20%;
-    
-    }
-
-    section{
-        width: 100%;
-    }
-   
-    #inputs_section div {
+    #inputs_section .form_div{
         display: flex;
-        width: 50%;
-        height: 100%;
-        justify-content: center;
-        box-shadow: 10px 10px 40px -11px #000000;
-        border-radius: 5%;
+       width: 600px;
     }
 
-    #card_oq_fazemos{
-        display: flex;
-        width: 100%;
-        height: 720px;
-        justify-content: space-evenly;
-        align-items: center;
-        flex-direction: column;
-    }
-
-    .text_card{
-        display: flex;
-        width: 100%;
-        height: auto;
-        color: #F3F3F3;
-        gap: 10px;
-        margin-top: 3%;
-        
-    }
-
-    .text_card h3{
-        font-size: 1.8em;
-        color: #F3F3F3;
-        font-family: "Raleway", sans-serif;
-    }
-    
     .text_card p{
         font-size: 1.1em;
         font-family: "Raleway", sans-serif;
         color: #F3F3F3;
-        padding: 20px;
+        padding: 34px;
         text-align: center;
     }
     
@@ -572,7 +574,7 @@ footer .curv_footer{
         font-size: 1.1em ;
         font-family: "Raleway", sans-serif;
         color: #F3F3F3;
-        padding: 10px;
+        padding: 20px;
         text-align: center;
     }
     
@@ -580,22 +582,110 @@ footer .curv_footer{
         font-size: 1em;
         font-family: "Raleway", sans-serif;
         color: #F3F3F3;
-        padding: 5px;
+        padding: 13px;
         text-align: center;
     }
-    
-    .retangulo_sobra{
-        position: absolute;
+
+
+    #card_nosso_objetivo_div{
         display: flex;
-        width: 300px;
-        height: 86%;
-        background-color: transparent;
-        border-radius: 50px;
-        border: 2px solid #091D3D;
-        top: 11%;
+        width: 100%;
+        height: 500px;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        padding: 60px;
+    }
+
+    #card_nosso_objetivo_div .card_nosso_objetivo{
+        display: flex;
+        width: 40%;
+        height: 60%;
+        background-color: #091D3D;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
+        border-radius: 10%;
+        
+        
     }
 
 
+    #card_nosso_objetivo_div .card_nosso_objetivo p{
+        font-size: 1.8em;
+        color: #fff;
+        font-family: "Work Sans", sans-serif;
+    }
+    
+    
+}
+
+
+@media(max-width: 428px) {
+
+
+    #section_header .edel-header #logo_title{
+        display: flex;
+        width: 40%;
+        height: auto;
+       
+    }
+
+    #wpp-button{
+        display: flex;
+        width: 160px;
+        height: 50px;
+        font: 0.6em "Mukta", sans-serif;
+        margin-left: 30px;
+     
+    }
+    
+    #nav_bar nav ul  a{
+        display: flex;
+        flex-direction: row;
+        text-wrap: nowrap;
+        word-break: keep-all;
+        word-wrap: normal;
+        text-decoration: none;
+        color: #091D3D;
+    
+        font: 0.7em "Tenor Sans", sans-serif;
+        font-weight: 700;
+    }
+ 
+
+
+    section .container_text{
+        display: flex;
+        width: 80%;
+        height: auto;
+        justify-content: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 70px;
+        margin-left: 50px;
+    }
+    
+    p{
+        font-size: 1.3em;
+        font-family: "Mukta", sans-serif;
+    }
+    
+    h3{
+        font-size: 3rem;
+        font-family: "Tenor Sans", sans-serif;
+        text-align: center;
+        font-weight: lighter;
+        color: #091D3D;
+    }
+
+    #span_img_section{
+     font-size: 3em;
+    }
+
+    
     #card_oq_fazemos{
         display: flex;
         width: 100%;
@@ -607,8 +697,8 @@ footer .curv_footer{
 
     #card_oq_fazemos .card{
         display: flex;
-        width: 360px;
-        height: 400px;
+        width: 60%;
+        height: 60%;
         background-color: #091D3D;
         border-radius: 50px;
         margin-bottom: 60px;
@@ -619,6 +709,99 @@ footer .curv_footer{
     .retangulo_sobra {
         border: none;
     }
+
+    #inputs_section .form_div{
+        
+        display: flex;
+       width: 400px;
+    }
+
+    .text_card p{
+        font-size: 1.1em;
+        font-family: "Raleway", sans-serif;
+        color: #F3F3F3;
+        padding: 34px;
+        text-align: center;
+    }
+    
+    #card_oq_fazemos div:nth-child(2) .text_card p{
+        font-size: 1.1em ;
+        font-family: "Raleway", sans-serif;
+        color: #F3F3F3;
+        padding: 20px;
+        text-align: center;
+    }
+    
+    #card_oq_fazemos div:nth-child(3) .text_card p{
+        font-size: 1em;
+        font-family: "Raleway", sans-serif;
+        color: #F3F3F3;
+        padding: 13px;
+        text-align: center;
+    }
+
+
+    #card_nosso_objetivo_div{
+        display: flex;
+        width: 100%;
+        height: 800px;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 20px;
+        padding: 60px;
+    }
+
+    #card_nosso_objetivo_div .card_nosso_objetivo{
+        display: flex;
+        width: 80%;
+        height: 60%;
+        background-color: #091D3D;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
+        border-radius: 10%;        
+        
+    }
+
+
+    #card_nosso_objetivo_div .card_nosso_objetivo p{
+        font-size: 1.8em;
+        color: #fff;
+        font-family: "Work Sans", sans-serif;
+    }
+
+
+    .text_footer{
+        padding-left: 60px;
+    }
     
     
-}
+    .text_icon_footer .img_local{
+        margin-left: 48px;
+        margin-bottom: 48px;
+        padding-right: 20px;
+    }
+    
+    .text_icon_footer p{
+     width: 230px;
+    }
+    
+    footer .curv_footer{
+        display: flex;
+        width: 100%;
+        height: auto
+    
+    }
+
+    footer span .logo_footer{
+        width: 400px;
+        padding-left: 30px;
+        margin-top: 60px;
+       
+    }
+
+    
+} 
